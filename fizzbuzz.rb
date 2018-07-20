@@ -8,5 +8,5 @@ def fizzbuzz(number)
   elsif number % 3 == 0 && "#{number}.to_i" % 5 == 0
     puts "FizzBuzz"
   else
-    puts nil
+    nil
 end
