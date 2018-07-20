@@ -2,7 +2,7 @@
 # See README.md for instructions on how to do this
 def fizzbuzz(int)
   if int % 3 == 0
-    puts "Fizz"
+    "Fizz"
   elsif int % 5 == 0
     puts "buzz"
   elsif int % 3 == 0 && "#{number}.to_i" % 5 == 0
