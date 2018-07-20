@@ -4,7 +4,7 @@ def fizzbuzz(number)
   if "#{number}" % 3 == 0
     return "Fizz"
   elsif "#{number}.to_i" % 5 == 0
-    puts "buzz"
+    print "buzz"
   elsif "#{number}.to_i" % 3 == 0 && "#{number}.to_i" % 5 == 0
     puts "FizzBuzz"
   else
